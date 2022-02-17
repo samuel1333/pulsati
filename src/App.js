@@ -33,7 +33,7 @@ function App() {
             <input type="email" placeholder="EMAIL" />
             <input type="text" placeholder="ASSUNTO" />
           </div>
-          <textarea rows="25" type="text" class="mensagem" placeholder="MESSAGE" />
+          <textarea rows='25' cols="10" type="text" class="mensagem" placeholder="MESSAGE" />
           <button>ENVIAR</button>
         </div>
       </div>
