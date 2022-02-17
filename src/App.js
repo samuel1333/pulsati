@@ -1,3 +1,4 @@
+import { FaWhatsapp } from 'react-icons/fa';
 import './App.css';
 import Navbar from './components/Navbar';
 
@@ -33,8 +34,19 @@ function App() {
             <input type="email" placeholder="EMAIL" />
             <input type="text" placeholder="ASSUNTO" />
           </div>
-          <textarea rows='25' cols="10" type="text" class="mensagem" placeholder="MESSAGE" />
+          <textarea rows='25' type="text" class="mensagem" placeholder="MESSAGE" />
           <button>ENVIAR</button>
+        </div>
+        <div class="newsletter">
+        <img 
+          title="20220104_pulsati_logo_LightGrey" 
+          alt="20220104_pulsati_logo_LightGrey" 
+          data-src="https://pulsati.com.br/wp-content/uploads/2022/01/20220104_pulsati_logo_LightGrey.svg" 
+          class=" lazyloaded" 
+          src="https://pulsati.com.br/wp-content/uploads/2022/01/20220104_pulsati_logo_LightGrey.svg" 
+        />
+        <a href="/whatsapp"><FaWhatsapp />
+        </a>
         </div>
       </div>
     </div>
