@@ -1,0 +1,39 @@
+
+/* Barra de navegação */
+/* Começo */
+.navbar {
+  overflow: hidden;
+  background-color: rgba(255,255,255, 0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 10;
+}
+  /* Logo */
+  /* Começo */
+.navbar a img {
+  width: 150px;
+  height: 50px;
+  
+}
+  /* Fim */
+.navbar a {
+  display: flex;
+  width: 14.28%;
+  padding: 16px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #222;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  background: #9b51e0;
+}
+/* Fim */

@@ -1,13 +1,14 @@
 import React from 'react'
+import './Navbar.css'
 
 function Navbar() {
   return (
     <>
     <div class="navbar">
-      <a href="#home">QUEM SOMOS</a>
-      <a href="#news">SERVIÇOS</a>
-      <a href="#contact">CLIENTES</a>
-      <a href="/home">
+      <a href="/who">QUEM SOMOS</a>
+      <a href="/services">SERVIÇOS</a>
+      <a href="/clients">CLIENTES</a>
+      <a href="/">
         <img 
           title="20220104_pulsati_logo_grey1" 
           alt="20220104_pulsati_logo_grey1" 
@@ -16,9 +17,9 @@ function Navbar() {
           src="https://pulsati.com.br/wp-content/uploads/2022/01/20220104_pulsati_logo_grey1.svg" 
         />
       </a>
-      <a href="#home">PARCEIROS</a>
-      <a href="#news">BLOG</a>
-      <a href="#contact">CONTATO</a>
+      <a href="/partners">PARCEIROS</a>
+      <a href="/blog">BLOG</a>
+      <a href="/contact">CONTATO</a>
     </div>
     </>
   )

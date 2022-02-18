@@ -1,0 +1,39 @@
+.button {
+  border-radius: 5px;
+  border-width: 1px;
+  letter-spacing: 5px;
+  font-size: 10px;
+  font-family: "Oxygen", Oxygen;
+}
+
+contatobutton {
+  width: 100%;
+  padding: 11.5px 24px;
+}
+
+.sub-button {
+  border-radius: 5px;
+  border-width: 1px;
+  letter-spacing: 5px;
+  font-size: 10px;
+  font-family: "Oxygen", Oxygen;
+}
+
+subbutton {
+  width: 100%;
+  padding: 11.5px 24px;
+}
+
+.map-button {
+  border-radius: 5px;
+  border-width: 1px;
+  letter-spacing: 5px;
+  font-size: 10px;
+  font-family: "Oxygen", Oxygen;
+}
+
+mapbutton {
+  width: fit-content;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+}

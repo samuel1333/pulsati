@@ -1,14 +1,12 @@
 import { FaWhatsapp } from 'react-icons/fa';
-import { FiMail } from 'react-icons/fi'
-import './App.css';
-import Navbar from './components/Navbar';
+import { FiMail } from 'react-icons/fi';
+import './Home.css';
 
 
-function App({ btnText }) {
+function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <div className="navbar">
-        <Navbar />
       </div>
       <div className="home-page-gradient">
         <div className="main-title">
@@ -49,7 +47,7 @@ function App({ btnText }) {
               src="https://pulsati.com.br/wp-content/uploads/2022/01/20220104_pulsati_logo_LightGrey.svg"
             />
           </div>
-          <div class="icons">
+          <div class="icons-newsletter">
             <a href="/email"><FiMail /></a>
             <a href="/whatsapp"><FaWhatsapp /></a>
           </div>
@@ -71,4 +69,4 @@ function App({ btnText }) {
   );
 }
 
-export default App;
+export default Home;
