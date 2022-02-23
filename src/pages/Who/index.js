@@ -1,15 +1,31 @@
 import './Who.css'
-import React from 'react'
+import React, { Component } from 'react'
+import WhoContent from './WhoContent';
 
 
-export default function Who() {
-  return (
-    <>
-      <div class="main">
-          <div class="main-box">
+export default class Who extends Component {
+  constructor() {
+    super();
+    this.state = {
+       className: 'hidden'
+    }
+  }
+  handleScroll() { 
+   if (document.documentElement.scrollTop >= 1900) {
+      this.setState({
+        className: 'show'
+      })
+    } 
+  }
 
-          </div>
-      </div>
-    </>
-  )
+  componentDidMount() {
+    window.onscroll = () => this.handleScroll()
+  }
+  render( ) {
+    return (
+      <>
+        <WhoContent className={this.state.className} />
+      </>
+    )
+  }
 }

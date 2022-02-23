@@ -24,13 +24,15 @@ export default function Footer() {
         </a>
         </div>
       <div class="logo">
-        <img
-          title="20220104_pulsati_logo_grey1"
-          alt="20220104_pulsati_logo_grey1"
-          data-src="https://pulsati.com.br/wp-content/uploads/2022/01/20220104_pulsati_logo_grey1.svg"
-          class="lazyloaded"
-          src="https://pulsati.com.br/wp-content/uploads/2022/01/20220104_pulsati_logo_grey1.svg"
-        />
+        <a href="/home">
+          <img
+            title="20220104_pulsati_logo_grey1"
+            alt="20220104_pulsati_logo_grey1"
+            data-src="https://pulsati.com.br/wp-content/uploads/2022/01/20220104_pulsati_logo_grey1.svg"
+            class="lazyloaded"
+            src="https://pulsati.com.br/wp-content/uploads/2022/01/20220104_pulsati_logo_grey1.svg"
+          />
+        </a>
       </div>
     </div>
   )
